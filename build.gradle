@@ -16,7 +16,7 @@ plugins {
     properties {
         property "sonar.sourceEncoding", "UTF-8"
         property "sonar.projectName", "finance-gradle"
-        property "sonar.projectVersion", "7.0"
+        property "sonar.projectVersion", "6.2"
     }
 }
 repositories {
@@ -45,7 +45,7 @@ uploadArchives {
              repository(url: "http://13.233.149.190:8081/nexus/content/repositories/releases") {
              authentication(userName: "admin", password: "admin123")
 }
-             pom.version = "7.0"
+             pom.version = "6.2"
              pom.artifactId = "finance-gradle"
              pom.groupId = "finance.gradle"
        }

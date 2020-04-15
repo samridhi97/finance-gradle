@@ -16,7 +16,7 @@ plugins {
     properties {
         property "sonar.sourceEncoding", "UTF-8"
         property "sonar.projectName", "finance-gradle"
-        property "sonar.projectVersion", "6.2"
+        property "sonar.projectVersion", "6.3"
     }
 }
 repositories {

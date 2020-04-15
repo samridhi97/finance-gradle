@@ -42,7 +42,7 @@ dependencies {
 uploadArchives {
     repositories {
        mavenDeployer {
-             repository(url: "http://13.233.56.178:8081/nexus/content/repositories/releases") {
+             repository(url: "http://13.233.223.41:8081/nexus/content/repositories/releases") {
              authentication(userName: "admin", password: "admin123")
 }
              pom.version = "6.3"

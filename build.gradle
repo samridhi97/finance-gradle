@@ -45,7 +45,7 @@ uploadArchives {
              repository(url: "http://13.233.56.178:8081/nexus/content/repositories/releases") {
              authentication(userName: "admin", password: "admin123")
 }
-             pom.version = "6.2"
+             pom.version = "6.3"
              pom.artifactId = "finance-gradle"
              pom.groupId = "finance.gradle"
        }

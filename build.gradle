@@ -25,7 +25,7 @@ repositories {
     jcenter()
     
     maven {
-          url "http://13.233.56.178:8081/nexus/content/groups/public"
+          url "http://13.233.223.41:8081/nexus/content/groups/public"
 }
 }
 
